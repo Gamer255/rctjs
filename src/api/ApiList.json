@@ -1,0 +1,8 @@
+{
+  "Get_Index": "http://localhost:8080/",
+  "Get_Tasks": "http://localhost:8080/tasks",
+  "Post_Task": "http://localhost:8080/task",
+  "Put_Mod_Task_Status": "http://localhost:8080/taskstatus",
+  "Put_Mod_Task": "http://localhost:8080/task",
+  "Del_Task": "http://localhost:8080/task"
+}

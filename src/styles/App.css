@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+
+.App {
+    width: 60%;
+}
+
+.task__green {
+    background: rgba(34, 139, 34, 0.4);
+}
+
+.task {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task_checkbox {
+    padding-right: 10px;
+}
+
+.task__content {
+    width: 90%;
+    word-break: break-word;
+    text-align: justify;
+}
+
+.task__btns {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.del__btn {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background: url("../../assets/delpic.svg") no-repeat center;
+}
+
+.del__btn:active {
+    width: 20px;
+    height: 20px;
+}
+
+.mod__btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url("../../assets/modpic.svg") no-repeat center;
+}
+
+.mod__btn:active {
+    width: 18px;
+    height: 18px;
+}

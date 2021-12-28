@@ -1,0 +1,14 @@
+.myBtn {
+    padding: 5px 15px;
+    margin: 5px 0;
+    color: black;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.myBtn:active {
+    padding: 4px 14px;
+    margin: 5px 0;
+}
